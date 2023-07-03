@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: indigo;
+    background-color: white;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: indigo;
+    background-color: rgb(233, 233, 206);
+    font: 24px bold;
+    list-style: none;
+    padding: 20px 60px 20px 0px;
+    margin: 0;
+}
+
+.nav-link {
+    line-height: 50px;
+    text-decoration: none;
+    color: indigo;
+}
+
+.nav-link:hover,
+.link:hover,
+.linkprojects:hover,
+.github:hover,
+.rs:hover {
+    color: rgb(140, 85, 14);
+    text-shadow: 1px 1px 1px rgb(202, 150, 81);
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    padding: 0px;
+}
+
+.mainn {
+    display: flex;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    color: rgb(140, 85, 14);
+    width: 770px;
+}
+
+.myphoto {
+    margin: 20px 0px 20px 310px;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+.contacts,
+.aboutme {
+    margin-left: 60px;
+}
+
+.link {
+    color: rgb(140, 85, 14);
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.aboutme {
+    margin-right: 90px;
+}
+
+.myjob {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.linkprojects,
+.footer-link {
+    color: indigo;
+    text-decoration: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(233, 233, 206);
+    padding: 20px 60px 20px 0px;
+    margin: 0;
+    gap: 20px;
+}
